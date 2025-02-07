@@ -7,9 +7,9 @@ This repository contains all coursework for my degree, organized by course prefi
 ```
 📁 Degree-Name/
 ├── 📁 Semester-Year/
-│   ├── 📁 Course-Number/
-│   │   ├── 📁 assignment-Number/
-│   │   │   ├── 📄 Program-Name.extension
+│   ├── 📁 COURSE-Number/
+│   │   ├── 📁 Assignment-Number/
+│   │   │   ├── 📄 program_name.extension
 │   │   │   ├── 📄 .gitignore
 │   │   │   └── 📄 README.md   # Describe assignment
 │   │   └── 📄 README.md       # Describe course
@@ -79,6 +79,6 @@ This repository is licensed under the MIT License. See `LICENSE` for details.
 
 ## Author
 **William Freeman**  
-[GitHub](https://github.com/usernamesarehardman)
-[LinkedIn](https://www.linkedin.com/in/william-freeman-2605411b1/)
+[GitHub](https://github.com/usernamesarehardman) | 
+[LinkedIn](https://www.linkedin.com/in/william-freeman-2605411b1/) | 
 [Bluesky](https://bsky.app/profile/usernamesarehardyo.bsky.social)

@@ -1,4 +1,4 @@
-# Homework #0 - CYBS 3743
+# Homework-0
 
 ## Due Date: February 6, 2025
 
@@ -16,13 +16,13 @@ Please submit your script file, log file, and running result (screen shot on you
 
 ## Repository Structure
 ```
-📁 Homework #0
+📁 Homework-0
 ├── 📁 h0data                   # Folder containing configuration files
 │   ├── ⚙️ <Number>.conf        # Assortment of configuration files
 │   └── ...
 ├── 📄 CYBS_3743_H0.docx        # Word document containing assignment instructions
-├── 📄 find_replace_ip_log.py   # Python script for processing files
 ├── 📄 README.md                # This document
+├── 📄 find_replace_ip_log.py   # Python script for processing files
 └── 📄 transaction_log.txt      # Log file recording modifications
 ```
 
