@@ -1,3 +1,6 @@
+# Ignore .pdf files
+*.pdf
+
 # Ignore all image types
 *.jpg
 *.jpeg

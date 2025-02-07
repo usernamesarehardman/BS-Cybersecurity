@@ -1,4 +1,4 @@
-# Regular Expression Assignment - CYBS 3743
+# Homework #0 - CYBS 3743
 
 ## Due Date: February 6, 2025
 
@@ -16,7 +16,7 @@ Please submit your script file, log file, and running result (screen shot on you
 
 ## Repository Structure
 ```
-📁 CYBS_3743_Regex_Assignment
+📁 Homework #0
 ├── 📁 h0data                   # Folder containing configuration files
 │   ├── ⚙️ <Number>.conf        # Assortment of configuration files
 │   └── ...
