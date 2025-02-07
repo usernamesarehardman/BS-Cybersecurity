@@ -1,0 +1,31 @@
+1. CPU Utilization
+    a. 100%
+    b. Since neither process issues an I/O request, Process 0 runs completely first, then Process 1 runs.
+2. Completion Time
+    a. 400 ms
+    b. Process 0
+        cpu (100 ms)
+        cpu (100 ms)
+        cpu (100 ms)
+        cpu (100 ms)
+
+       Process 1
+        io (0 ms)
+       Total = 400 ms
+3. Process Order
+    a. No
+    b. Regardless of which command is run one process will use 400 ms of CPU time and the other will use 0 ms (see above).
+4. Switching Policies
+    a. SWITCH ON END
+        a1. No
+        a2. SWITCH_ON_END enforces that behavior by allowing a process to continue executing until it completes its current activity (either CPU-bound or I/O-bound) before switching to another process.
+    b. SWITCH ON IO
+        b1. Yes
+        b2. SWITCH_ON_IO causes the scheduler to immediately switch away from a process as soon as it issues an I/O request, giving the CPU to another process.
+5. I/O Completion Policies
+    a. IO_RUN_LATER
+        a1. Yes
+        a2. This policy reduces CPU utilization because, while the process that just completed I/O remains unscheduled, the CPU might remain idle until another process is available to run.
+    b. IO_RUN_IMMEDIATE
+        b1. Yes
+        b2. By allowing the process that just completed I/O to run immediately, the system minimizes CPU idle time. 

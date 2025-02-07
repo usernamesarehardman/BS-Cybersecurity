@@ -28,21 +28,21 @@ This repository contains all coursework for my degree, organized by course prefi
    ```
 2. Create a new branch for an assignment:
    ```sh
-   git checkout -b Course-Number/Assignment-Number
+   git checkout -b COURSE-Number/Assignment-Number
    ```
 3. Work on the assignment, then commit changes:
    ```sh
-   git add Course-Number/Assignment-Number/
-   git commit -m "Completed Course-Number Assignment-Number"
+   git add COURSE-Number/Assignment-Number/
+   git commit -m "Completed COURSE-Number Assignment-Number"
    ```
 4. Push the new branch to GitHub:
    ```sh
-   git push origin Course-Number/Assignment-Number
+   git push origin COURSE-Number/Assignment-Number
    ```
 5. When done, merge it back into `main`:
    ```sh
    git checkout main
-   git merge cs2313-assignment-2
+   git merge COURSE-Number/Assignment-Number
    git push origin main
    ```
 
@@ -61,7 +61,7 @@ Sparse checkout lets you clone only a specific course folder instead of download
    ```
 3. Specify the course folder you want to work on:
    ```sh
-   git sparse-checkout set Course-Number
+   git sparse-checkout set COURSE-Number
    ```
 4. Pull only that folder:
    ```sh
@@ -71,7 +71,7 @@ Sparse checkout lets you clone only a specific course folder instead of download
 ### **Switching to a Different Course**
 To change the folder you are working on, update sparse checkout:
 ```sh
-git sparse-checkout set Course-Number/Assignment-Number
+git sparse-checkout set COURSE-Number/Assignment-Number
 ```
 
 ## License
