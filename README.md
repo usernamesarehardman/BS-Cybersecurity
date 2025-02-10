@@ -75,10 +75,13 @@ git sparse-checkout set COURSE-Number/Assignment-Number
 ```
 
 ## License
-This repository is licensed under the MIT License. See `LICENSE` for details.
+As of Feb. 6, 2025, this repository is licensed under the MIT License. See `LICENSE` for details.
 
 ## Author
 **William Freeman**  
+Connect with me: 
+[Webpage](https://usernamesarehardman.github.io/) | 
+[Email](mailto:william.r.freeman-1@ou.edu) |
 [GitHub](https://github.com/usernamesarehardman) | 
 [LinkedIn](https://www.linkedin.com/in/william-freeman-2605411b1/) | 
 [Bluesky](https://bsky.app/profile/usernamesarehardyo.bsky.social)
