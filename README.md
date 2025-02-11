@@ -16,7 +16,7 @@ This repository contains all coursework for my degree, organized by course prefi
 │   └── 📄 README.md           # Describe semester
 ├── 📄 .gitignore
 ├── 📄 LICENSE
-└── 📄 README.md
+└── 📄 README.md               # This document
 ```
 
 ## How to Use Git Branches for Assignments

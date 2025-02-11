@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop File Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Drag and Drop File Upload</h1>
+        <div id="drop-area">
+            <p>Drag your files here</p>
+            <form id="upload-form" action="/uploads" method="POST" enctype="multipart/form-data">
+                <input type="file" id="file-input" name="file" style="display: none;" />
+                <button type="button" id="browse-btn">Browse Files</button>
+                <button type="submit" id="upload-btn" disabled>Upload</button>
+            </form>
+            <!-- Display the selected file name -->
+            <div id="file-name-display" style="margin-top: 20px; font-weight: bold;"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

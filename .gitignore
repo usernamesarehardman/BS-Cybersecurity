@@ -12,7 +12,7 @@
 *.svg
 
 # Ignore dev directory
-/dev/
+dev/
 
 # Ignore Python cache and compiled files
 __pycache__/
