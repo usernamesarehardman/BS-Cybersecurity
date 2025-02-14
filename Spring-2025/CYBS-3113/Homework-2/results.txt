@@ -1,0 +1,41 @@
+Part 1
+1. Generate the Job Set
+    Job 0 ( length = 5 )
+    Job 1 ( length = 3 )
+    Job 2 ( length = 2 )
+    Job 3 ( length = 3 )
+2. Manually Calculate Metrics
+    Job 0 ( response = 0, turnaround = 5, wait = 0)
+    Job 1 ( response = 5, turnaround = 8, wait = 5)
+    Job 2 ( response = 8, turnaround = 10, wait = 8)
+    Job 3 ( response = 10, turnaround = 13, wait = 10)
+    Avg   ( response = 5.75, turnaround = 9.00, wait = 5.75 )
+3. Verify Your Work
+    (Completed on paper)
+
+Part 2
+1. Generate a New Job Set
+    Job 2 ( length = 2 )
+    Job 1 ( length = 3 )
+    Job 3 ( length = 3 )
+    Job 0 ( length = 5 )
+    I predict that Job 2 will go first, followed by Job 1, Job 3, and then finally Job 0.
+2. Compute and Compare
+    I predict that the average wait time will decreease with SJF compared to FIFO.
+    Avg   ( response = 3.75, turnaround = 7.00, wait = 3.75 )
+    SJF was significantly more effiecient because it lowered the average response, turnaround, and wait times.
+
+Part 3
+1. Run RR with a Quantum of 3
+    Round robin should initially have the same execution order as FIFO. 
+    However, all Jobs except Job 0 will complete on the first run, meaning Job 0  will run one more time.
+    Job 0, 1, 2, 3, 0
+
+2. Manually Compute Metrics
+    Job 0 ( response = 0, turnaround = 13, wait = 8)
+    Job 1 ( response = 3, turnaround = 6, wait = 3)
+    Job 2 ( response = 6, turnaround = 8, wait = 6)
+    Job 3 ( response = 8, turnaround = 11, wait = 8)
+    Avg   ( response = 4.25, turnaround = 9.50, wait = 6.25 )
+    decreasing the time quantum can increase average wait time but can reduce average response and turnaround times.
+    decreasing the time quantum can reduce average wait time but can decrease average response and turnaround times.

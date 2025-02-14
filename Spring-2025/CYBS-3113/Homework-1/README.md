@@ -37,3 +37,4 @@ A 1–2 sentence justification referring to the trace details (-c or -p).
 
 ## References
 1. ChatGPT. (2025). *Content partially generated using OpenAI's ChatGPT-4o*. Retrieved from OpenAI API.
+2. Course Materials: CYBS 3113 Operating Systems Fundamentals, University of Oklahoma.
